@@ -1,5 +1,7 @@
 ## Autorun GCN Adapter Driver
 
+<img src="https://raw.githubusercontent.com/mattcarlotta/autorunGCNDriver/main/autorunGCNDriverIcon.png" width="250px">
+
 A tool to automate running [GCN USB Adapter](https://bitbucket.org/elmassivo/gcn-usb-adapter/src/master/).
 
 ### What's the motivation?
