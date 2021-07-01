@@ -14,9 +14,9 @@ Click [here](https://youtu.be/nA50Wlv3K_M) for a video demo.
 
 ### Prerequisites
 
-- Own a WUP-28 [Wii U GameCube Controller Adapter](https://i.imgur.com/ybzhXjD.jpg)
-- Plug in a single GameCube Controller into the adapter
-- Installed [GCN USB Adapter](https://bitbucket.org/elmassivo/gcn-usb-adapter/downloads/WiiU-UsbSetup%202015-09-02.exe) to `"C:\Program Files (x86)\GCNadapter\GCNUSBFeeder.exe"`
+- Own and have plugged in a WUP-28 [Wii U GameCube Controller Adapter](https://i.imgur.com/ybzhXjD.jpg)
+- Plugged in a single GameCube Controller into the adapter
+- Installed [GCN USB Adapter](https://bitbucket.org/elmassivo/gcn-usb-adapter/downloads) to `C:\Program Files (x86)\GCNadapter\GCNUSBFeeder.exe`
 - Installed [Zadig](https://zadig.akeo.ie/) and altered the driver for the WUP-28 adapter
 
 ⚠️ Please note that this program currently only supports finding a single active controller. While you can use more than 1 controller, this program will only find the first active vJoy device and then exit.
