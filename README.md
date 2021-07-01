@@ -32,8 +32,9 @@ If you wish to run it, you must temporarily [turn off Real-time protection](http
 
 - Download and install `AutoIt Full Installation` and `AutoIt Script Editor` from [here](https://www.autoitscript.com/site/autoit/downloads/)
 - Download [autorunGCNDriver.au3](https://raw.githubusercontent.com/mattcarlotta/autorunGCNDriver/main/autorunGCNDriver.au3) and [autorunGCNDriver.ico](https://raw.githubusercontent.com/mattcarlotta/autorunGCNDriver/main/autorunGCNDriver.ico) files
-- Right click on the `autorunGCNDriver.au3` and click `Edit Script`
+- Right click on the `autorunGCNDriver.au3` and click [Edit Script](https://i.imgur.com/SiaHhRf.png)
 - Temporarily [turn off Real-time protection](https://www.cyber.gov.au/acsc/view-all-content/guidance/turn-real-time-protection-windows-10)
-- When the AutoIt Script Editor loads, press `F7` (or `Tools` > `Build`) to compile/build an .exe
+- When the AutoIt Script Editor loads, press `F7` (or `Tools` > `Build`) to [build](https://i.imgur.com/ChWpq54.png) the .exe
+- The exe file will be created at the [parent root directory](https://i.imgur.com/bGXQlGc.png)
 - Add the built exe file to the [exclusion list](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26)
 - Turn on Real-time protection
