@@ -2,6 +2,12 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Icon=.\autorunGCNDriver.ico
 #AutoIt3Wrapper_UseUpx=y
+#AutoIt3Wrapper_Res_Description=Autorun GCN Driver
+#AutoIt3Wrapper_Res_Fileversion=1.0.0.0
+#AutoIt3Wrapper_Res_ProductName=Autorun GCN Driver
+#AutoIt3Wrapper_Res_ProductVersion=1.0.0.0
+#AutoIt3Wrapper_Res_LegalCopyright=©2021 Matt Carlotta
+#AutoIt3Wrapper_Res_Language=1033
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 #include <MsgBoxConstants.au3>
