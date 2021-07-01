@@ -8,6 +8,10 @@ A tool to automate running [GCN USB Adapter](https://bitbucket.org/elmassivo/gcn
 
 Laziness! This program replaces manually opening the GCN USB Adapter, pressing the "Start" button and then searching through the vJoy devices to find which vJoy device is active.
 
+### Demo
+
+Click [here](https://youtu.be/nA50Wlv3K_M) for a video demo.
+
 ### Prerequisites
 
 - Own a WUP-28 [Wii U GameCube Controller Adapter](https://i.imgur.com/ybzhXjD.jpg)
