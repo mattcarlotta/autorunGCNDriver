@@ -18,13 +18,13 @@ Func LeftMouseClick($y, $x)
 	MouseClick("primary", $y, $x, 1, 0)
 EndFunc
 
-; wait for window to exist and focus on a window
+; wait for window to exist and focus on the window
 Func FocusOnWindow($window = "Gamecube USB Adapter Driver", $text = "")
 	WinWait($window, $text, 5)
 	WinActivate($window)
 EndFunc
 
-; displays a message box error
+; displays an error message box 
 Func DisplayError($error)
 	MsgBox($MB_ICONERROR, "Error!", $error)
 EndFunc
@@ -94,12 +94,12 @@ Func Main()
 	FocusOnWindow()
 	; click on Start button
 	LeftMouseClick(555, 100)
-	; wait for Driver to enter loop
+	; wait for GCN Driver to enter loop
 	WinWait("Gamecube USB Adapter Driver", "Driver successfully started, entering input loop", 5)
 
-	; check if driver has entered loop
+	; check if GCN Driver has entered loop
 	If WinExists("Gamecube USB Adapter Driver", "Driver successfully started, entering input loop") Then
-		; focus on GCN Window
+		; focus on GCN window
 		FocusOnWindow()
 		; click Configuration button
 		LeftMouseClick(565, 415)
