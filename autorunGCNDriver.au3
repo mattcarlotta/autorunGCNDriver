@@ -20,8 +20,8 @@ AutoItSetOption("PixelCoordMode", 0)
 AutoItSetOption("WinTitleMatchMode", 2)
 
 ; left mouse click on a pixel
-Func LeftMouseClick($y, $x)
-	MouseClick("primary", $y, $x, 1, 0)
+Func LeftMouseClick($x, $y)
+	MouseClick("primary", $x, $y, 1, 0)
 EndFunc
 
 ; wait for window to exist and focus on the window
